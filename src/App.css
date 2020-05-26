@@ -2,9 +2,11 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.row-container {
+  display: flex;
+  list-style-type:none;
+  justify-content:flex-end;
+  align-items: center;
 }
 
 @media (prefers-reduced-motion: no-preference) {
